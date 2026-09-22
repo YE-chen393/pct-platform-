@@ -262,7 +262,9 @@ MIT License — 详见 `LICENSE`。
 - 报告在线演示不可用
 - 咨询私有部署 / 模型定制 / 数据集合作
 
-请通过 GitHub Issues 联系：[YE-chen393/pct-platform-](https://github.com/YE-chen393/pct-platform-/issues)。
+联系方式（任选其一）：
+- **邮箱**：[nkdudx29387o@outlook.com](mailto:nkdudx29387o@outlook.com)
+- **GitHub Issues**：[YE-chen393/pct-platform-](https://github.com/YE-chen393/pct-platform-/issues)
 
 ---
 
