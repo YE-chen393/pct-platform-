@@ -10,6 +10,26 @@
 
 ---
 
+## 🌐 在线体验（无需部署）
+
+> **直接在浏览器打开下方链接即可使用，无需任何环境配置！**
+>
+> ### 🎯 在线演示地址
+>
+> **<https://sheets-casting-lynn-mpeg.trycloudflare.com>**
+>
+> 📡 由作者服务器托管，通过 Cloudflare Tunnel 提供 HTTPS 公网访问。
+> 任何设备（手机 / 电脑 / 平板）打开即用，与本地启动的体验完全一致。
+
+> ⚠️ **URL 是临时的**：托管服务器重启或隧道断开时，此 URL 会变化或失效。
+> 如果链接打不开，你有两个选择：
+> 1. **自己部署**（见下方 `🚀 一分钟启动`）— 5 分钟在本机或服务器启动一个永久实例
+> 2. **联系服务方** 恢复在线演示（见底部「服务提供方」)
+>
+> 💡 想要长期稳定的访问？建议在自己机器上部署（一次 5 分钟，享受永久服务）。
+
+---
+
 ## ✨ 核心功能
 
 - 🎯 **单组份预测**:输入化学式 → 自动获得 V5 / V6 / Capacity / 25℃ 平台压 / van't Hoff / P-T / PCT 等温曲线
@@ -234,6 +254,17 @@ A: 把 CSV 放到 `data/<Target>/{features.csv,X_train.csv,X_val.csv,X_test.csv,
 ## 📄 License
 
 MIT License — 详见 `LICENSE`。
+
+## 📡 服务提供方
+
+本仓库 README 中的「在线演示地址」由原作者服务器托管。如需：
+- 申请恢复 / 重启在线演示
+- 报告在线演示不可用
+- 咨询私有部署 / 模型定制 / 数据集合作
+
+请通过 GitHub Issues 联系：[YE-chen393/pct-platform-](https://github.com/YE-chen393/pct-platform-/issues)。
+
+---
 
 ## 🙏 致谢
 
