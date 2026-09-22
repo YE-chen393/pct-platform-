@@ -1,0 +1,17 @@
+feature
+MagpieData avg_dev Column
+MagpieData avg_dev CovalentRadius
+MagpieData avg_dev GSvolume_pa
+MagpieData avg_dev MeltingT
+MagpieData avg_dev NValence
+MagpieData avg_dev NdUnfilled
+MagpieData avg_dev SpaceGroupNumber
+MagpieData maximum NValence
+MagpieData mean Column
+MagpieData mean GSvolume_pa
+MagpieData mean MeltingT
+MagpieData mean MendeleevNumber
+MagpieData mode Column
+MagpieData mode MendeleevNumber
+MagpieData range Electronegativity
+V0

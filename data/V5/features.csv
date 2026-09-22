@@ -1,0 +1,14 @@
+feature
+MagpieData avg_dev NdUnfilled
+MagpieData mean NUnfilled
+MagpieData mode AtomicWeight
+MagpieData mean MendeleevNumber
+MagpieData mean MeltingT
+MagpieData mean GSvolume_pa
+MagpieData mean Electronegativity
+MagpieData mode NUnfilled
+MagpieData mean Row
+MagpieData mode MeltingT
+MagpieData mode MendeleevNumber
+V0
+MagpieData mode NdValence

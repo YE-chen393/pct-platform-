@@ -1,0 +1,19 @@
+feature
+MagpieData avg_dev Column
+MagpieData minimum MeltingT
+MagpieData avg_dev NdValence
+MagpieData avg_dev NsValence
+MagpieData maximum MendeleevNumber
+MagpieData mean MendeleevNumber
+MagpieData mean NUnfilled
+MagpieData mean SpaceGroupNumber
+MagpieData minimum NUnfilled
+MagpieData avg_dev GSmagmom
+MagpieData avg_dev NdUnfilled
+MagpieData avg_dev SpaceGroupNumber
+MagpieData maximum MeltingT
+MagpieData mean MeltingT
+MagpieData mean Number
+MagpieData minimum NValence
+MagpieData mode NValence
+V0

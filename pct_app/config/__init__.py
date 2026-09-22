@@ -1,0 +1,18 @@
+"""配置层:路径 / 常量 / 全局选项"""
+
+from .paths import ROOT, MODEL_DIR, DATA_DIR, ASSETS_DIR, RESULTS_DIR, VENDOR_DIR
+from .constants import (
+    DEFAULT_V0,
+    DEFAULT_T_RANGE_K,
+    DEFAULT_P_RANGE_BAR,
+    PLOT_DPI,
+    PCT_N_POINTS,
+    ISOTHERM_T_LIST_K,
+    PHONONBENK_URL,
+)
+
+__all__ = [
+    "ROOT", "MODEL_DIR", "DATA_DIR", "ASSETS_DIR", "RESULTS_DIR", "VENDOR_DIR",
+    "DEFAULT_V0", "DEFAULT_T_RANGE_K", "DEFAULT_P_RANGE_BAR",
+    "PLOT_DPI", "PCT_N_POINTS", "ISOTHERM_T_LIST_K", "PHONONBENK_URL",
+]

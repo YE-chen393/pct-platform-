@@ -1,0 +1,106 @@
+# ============================================================
+# PCT_project .gitignore
+# 兼容 GitHub 上传:不要把临时/缓存/环境目录推到仓库
+# ============================================================
+
+# ----- Python 字节码 / 缓存 -----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ----- 虚拟环境 -----
+venv/
+.venv/
+env/
+ENV/
+conda-meta/
+
+# ----- Jupyter / IPython -----
+.ipynb_checkpoints/
+profile_default/
+
+# ----- IDE / 编辑器 -----
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ----- 测试 / 覆盖率 -----
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+
+# ----- Gradio 缓存(运行时生成) -----
+.gradio/
+flagged/
+.gradio_flagged/
+*.gradio.log
+
+# ----- 项目运行时缓存 -----
+*.pid
+*.lock
+
+# ----- 任务历史(运行后产生,可以不传) -----
+assets/jobs/
+assets/job_*.zip
+assets/batch_*.csv
+assets/*.png
+
+# 但要保留示例图(README 引用)和静态 CIF
+!assets/pct_isotherms.png
+!assets/p_vs_T.png
+!assets/vant_hoff.png
+!assets/*.cif
+
+# ----- 临时文件 -----
+tmp/
+tmp_*/
+*.tmp
+*.bak
+*.swp
+
+# ----- Secrets / 本地配置 -----
+.env
+.env.local
+*.local.yaml
+*.local.json
+secrets.yaml
+
+# ----- 模型权重(太大,可走 LFS 或 release) -----
+# 默认保留 — 模型训练一次后可重生成
+# 如不希望上传到 GitHub,可解开下面注释:
+# models/**/*.pkl
+
+# ----- CERN ROOT / 大型二进制 -----
+*.root
+*.hdf5
+*.h5
+
+# ----- npm / node(若以后加前端) -----
+node_modules/
+dist/
+build/
+
+# ----- 日志 -----
+*.log
+logs/
+pct_app.log
+
+# ----- OS -----
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+ehthumbs.db
+Desktop.ini
+
+# ----- 私有:本地调试残留 -----
+debug_*.py
+scratch_*.py
